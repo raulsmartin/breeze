@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[31,)"
+issueTrackerURL="https://github.com/raulsmartin/breeze/issues"
+showAsResourcePack=false
+
+[[mods]]
+    modId = "breeze"
+    version = "${file.jarVersion}"
+    displayName = "Breeze Blocks"
+    #updateJSONURL="http://myurl.me/"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/breeze/"
+    logoFile="logo.png"
+    #credits="Thanks for this example mod goes to Java"
+    authors = "raulsmartin"
+    description = '''
+    This mod adds breeze like blocks to Minecraft.
+    '''
+[[dependencies.breeze]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.breeze]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,50 @@
+{
+    "variants": {
+      "facing=down,double=false": {
+        "model": "breeze:block/${block_id}_breeze_${type}",
+        "x": 90
+      },
+      "facing=down,double=true": {
+        "model": "breeze:block/${block_id}_breeze_${type}_double",
+        "x": 90
+      },
+      "facing=east,double=false": {
+        "model": "breeze:block/${block_id}_breeze_${type}",
+        "y": 90
+      },
+      "facing=east,double=true": {
+        "model": "breeze:block/${block_id}_breeze_${type}_double",
+        "y": 90
+      },
+      "facing=north,double=false": {
+        "model": "breeze:block/${block_id}_breeze_${type}"
+      },
+      "facing=north,double=true": {
+        "model": "breeze:block/${block_id}_breeze_${type}_double"
+      },
+      "facing=south,double=false": {
+        "model": "breeze:block/${block_id}_breeze_${type}",
+        "y": 180
+      },
+      "facing=south,double=true": {
+        "model": "breeze:block/${block_id}_breeze_${type}_double",
+        "y": 180
+      },
+      "facing=up,double=false": {
+        "model": "breeze:block/${block_id}_breeze_${type}",
+        "x": 270
+      },
+      "facing=up,double=true": {
+        "model": "breeze:block/${block_id}_breeze_${type}_double",
+        "x": 270
+      },
+      "facing=west,double=false": {
+        "model": "breeze:block/${block_id}_breeze_${type}",
+        "y": 270
+      },
+      "facing=west,double=true": {
+        "model": "breeze:block/${block_id}_breeze_${type}_double",
+        "y": 270
+      }
+    }
+  }

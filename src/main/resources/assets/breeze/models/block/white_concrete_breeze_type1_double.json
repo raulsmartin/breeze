@@ -1,0 +1,8 @@
+{
+    "parent": "breeze:block/breeze_type1_double",
+    "textures": {
+      "sides": "minecraft:block/white_concrete",
+      "front": "minecraft:block/white_concrete",
+      "inner": "minecraft:block/white_concrete"
+    }
+}

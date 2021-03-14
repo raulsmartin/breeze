@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "minecraft:white_concrete"
+    },
+    "result": "breeze:white_concrete_breeze_type5",
+    "count": 2
+  }

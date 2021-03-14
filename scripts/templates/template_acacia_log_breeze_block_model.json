@@ -1,0 +1,8 @@
+{
+    "parent": "breeze:block/breeze_${type}",
+    "textures": {
+      "sides": "minecraft:block/acacia_log",
+      "front": "minecraft:block/acacia_log",
+      "inner": "minecraft:block/acacia_log_top"
+    }
+}
