@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "minecraft:stone"
+    },
+    "result": "breeze:stone_breeze_type1",
+    "count": 2
+  }

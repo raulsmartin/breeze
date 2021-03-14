@@ -1,0 +1,50 @@
+{
+    "variants": {
+      "facing=down,double=false": {
+        "model": "breeze:block/acacia_log_breeze_type1",
+        "x": 90
+      },
+      "facing=down,double=true": {
+        "model": "breeze:block/acacia_log_breeze_type1_double",
+        "x": 90
+      },
+      "facing=east,double=false": {
+        "model": "breeze:block/acacia_log_breeze_type1",
+        "y": 90
+      },
+      "facing=east,double=true": {
+        "model": "breeze:block/acacia_log_breeze_type1_double",
+        "y": 90
+      },
+      "facing=north,double=false": {
+        "model": "breeze:block/acacia_log_breeze_type1"
+      },
+      "facing=north,double=true": {
+        "model": "breeze:block/acacia_log_breeze_type1_double"
+      },
+      "facing=south,double=false": {
+        "model": "breeze:block/acacia_log_breeze_type1",
+        "y": 180
+      },
+      "facing=south,double=true": {
+        "model": "breeze:block/acacia_log_breeze_type1_double",
+        "y": 180
+      },
+      "facing=up,double=false": {
+        "model": "breeze:block/acacia_log_breeze_type1",
+        "x": 270
+      },
+      "facing=up,double=true": {
+        "model": "breeze:block/acacia_log_breeze_type1_double",
+        "x": 270
+      },
+      "facing=west,double=false": {
+        "model": "breeze:block/acacia_log_breeze_type1",
+        "y": 270
+      },
+      "facing=west,double=true": {
+        "model": "breeze:block/acacia_log_breeze_type1_double",
+        "y": 270
+      }
+    }
+  }
