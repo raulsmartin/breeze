@@ -15,13 +15,13 @@ public class BreezeItem extends BlockItem {
     private final Block parent;
 
     public BreezeItem(Block block, Block parent) {
-        super(block, new Item.Properties().group(BreezeRegistry.BREEZE_TAB));
+        super(block, new Item.Properties().tab(BreezeRegistry.BREEZE_TAB));
         this.parent = parent;
     }
 
     @Override
     @Nonnull
-    public ITextComponent getDisplayName(@Nonnull ItemStack stack) {
-        return new TranslationTextComponent(this.getTranslationKey(stack), BreezeRegistry.ENGLISH.translateKey(parent.getTranslationKey()));
+    public ITextComponent getName(@Nonnull ItemStack stack) {
+        return new TranslationTextComponent(this.getDescriptionId(stack), new TranslationTextComponent(parent.getDescriptionId()));
     }
 }

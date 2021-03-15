@@ -1,5 +1,6 @@
 modLoader = "javafml"
-loaderVersion = "[31,)"
+loaderVersion = "[33,)"
+license="GNU General Public License v3.0"
 issueTrackerURL="https://github.com/raulsmartin/breeze/issues"
 showAsResourcePack=false
 
@@ -18,13 +19,13 @@ showAsResourcePack=false
 [[dependencies.breeze]]
     modId="forge"
     mandatory=true
-    versionRange="[31,)"
+    versionRange="[33,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.breeze]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.2,1.17)"
     ordering="NONE"
     side="BOTH"

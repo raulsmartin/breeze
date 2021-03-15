@@ -23,7 +23,7 @@ public enum BreezeType implements IStringSerializable {
     }
 
     @Nonnull
-    public String getName() {
+    public String getSerializedName() {
         return this.name;
     }
 }
